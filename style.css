@@ -1,0 +1,42 @@
+:root {
+  --Bus-Dark: rgb(48, 46, 56);
+  --Bus-Grey: rgb(122, 110, 110);
+  --Bus-LB: rgb(63, 103, 141);
+  --Bus-LG: rgb(181, 204, 204);
+  --Bus-White: rgb(219, 217, 217);
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color: var(--Bus-LG);
+}
+
+main {
+ flex-grow: 1;
+}
+
+.BG-Dark-B{
+  background-color: var(--Bus-Dark);
+}
+
+.BG-Grey-B{
+  background-color: var(--Bus-Grey);
+}
+
+.BG-LB-B{
+  background-color: var(--Bus-LB);
+}
+
+.Background-Trying{
+  background-color: var(--Bus-LG);
+}
+
+.Text-White-Color{
+  color: white;
+}
+
+.Text-Color-Button{
+  color: var(--Bus-White);
+}

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>The Art of Bussiness</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-4 text-center p-3">
+          <h3 id="DayCount">MONDAY Days(Total): 0</h3>
+        </div>
+        <div class="col-4 text-center mt-2">
+          <h1 class="BG-Grey-B p-3">The Art of Bussiness</h1>
+        </div>
+        <div class="col-4 text-center p-3">
+          <h3 id="MoneyScreen">Money: 0</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-8 text-center pt-4">
+          <img
+            src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fclipartart.com%2Fimages%2Fdollar-bill-images-clipart.jpg&f=1&nofb=1"
+            alt="Dollar Bill" onclick="MoneyClick()" style="height: 30vh; width: 60vh;">
+        </div>
+        <div class="col-md-2">
+          <div class="card BG-LB-B">
+            <div class="card-title text-center">
+              <h3>Assets</h3>
+            </div>
+            <div class="card-text">
+              <h5 id="Assets-Bussinesses" class="p-3">Bussinesses: 0</h5>
+              <h5 id="Assets-Houses" class="p-3">Houses: 0</h5>
+              <h5 id="Assets-Index-Funds" class="p-3">Index Funds: 0</h5>
+              <h5 id="Assets-ATMS" class="p-3">ATMS: 0</h5>
+              <h5 id="Assets-Vending-Machines" class="p-3">Vending Machines: 0</h5>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-2"></div>
+      </div>
+      <div class="row p-4">
+        <div class="col-md-1"></div>
+        <div class="col-md-10 text-center">
+          <div class="Background-Trying">
+            <button id="VendingButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="Purchased(0)">Buy a
+              Vending Machine: 0</button>
+            <button id="ATMButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="Purchased(1)">Buy an ATM:
+              0</button>
+            <button id="IndexFundButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="Purchased(2)">Buy an
+              Index Fund: 0</button>
+            <button id="HouseButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="Purchased(3)">Buy a
+              House:
+              0</button>
+            <button id="BussinessButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="Purchased(4)">Buy a
+              Bussiness
+              thats for sale: 0</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-1"></div>
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-7">
+        </div>
+        <div class="col-5 d-flex justify-content-end text-center">
+          <h5>Made By <a class="Text-White-Color" title="Link to Other Projects"
+              href="https://github.com/Jarrod-Payton/">Jarrod Payton</a></h5>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Bootstrap JavaScript Libraries -->
+  <script src="app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
