@@ -19,7 +19,7 @@
     <div class="container-fluid">
       <div class="row">
         <div class="col-4 text-center p-3">
-          <h3 id="DayCount">MONDAY Days(Total): 0</h3>
+          <h3 id="DayCount">Monday, Days(Total): 0</h3>
         </div>
         <div class="col-4 text-center mt-2">
           <h1 class="BG-Grey-B p-3">The Art of Bussiness</h1>
@@ -49,6 +49,8 @@
               <h5 id="Assets-Index-Funds" class="p-3">Index Funds: 0</h5>
               <h5 id="Assets-ATMS" class="p-3">ATMS: 0</h5>
               <h5 id="Assets-Vending-Machines" class="p-3">Vending Machines: 0</h5>
+              <h5 id="Assets-Equipment" class="p-3">Equipment: 0</h5>
+              <h5 id="Assets-Employees" class="p-3">Employees: 0</h5>
             </div>
           </div>
         </div>
@@ -59,21 +61,39 @@
         <div class="col-md-10 text-center">
           <div class="Background-Trying">
             <button id="VendingButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="Purchased(0)">Buy a
-              Vending Machine: 0</button>
+              Vending Machine: $0</button>
             <button id="ATMButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="Purchased(1)">Buy an ATM:
-              0</button>
+              $0</button>
             <button id="IndexFundButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="Purchased(2)">Buy an
-              Index Fund: 0</button>
+              Index Fund: $0</button>
             <button id="HouseButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="Purchased(3)">Buy a
-              House:
-              0</button>
+              House: $0</button>
             <button id="BussinessButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="Purchased(4)">Buy a
               Bussiness
-              thats for sale: 0</button>
+              thats for sale: $0</button>
           </div>
         </div>
       </div>
       <div class="col-md-1"></div>
+      <div class="row">
+        <div class="col text-center">
+          <button id="EquipmentButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="BuyEquipment()">Buy
+            Equipment: 50</button>
+          <button id="EmployeeButton" class="btn BG-Dark-B Text-Color-Button p-2" onclick="BuyEmployee()">Buy a
+            Employee (you'll still be paying of course, this isn't slavery): 100</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4 text-center pt-2">
+          <div class="card">
+            <div class="card-text">
+              <h4 id="EmployeeEarnings">Your Employees Have Made You: $0</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4"></div>
+      </div>
   </main>
   <footer>
     <div class="container-fluid">
